@@ -1,4 +1,4 @@
-const urlPageTitle = "The News";
+const urlPageTitle = "App SPA Router";
 
 
 document.addEventListener("click", (e) => {
@@ -14,26 +14,26 @@ document.addEventListener("click", (e) => {
 const urlRoutes = {
     404 : {
         template : "/templates/404.html",
-        title : "404 hatası başlık" + urlPageTitle,
+        title : "404 hatası başlık |" + urlPageTitle,
         description: "404 not found page"
     },
     "/" : {
         template : "/templates/index.html",
-        title : "" + urlPageTitle + " | En Güncel Teknoloji Haberlerini ve Videolarını Anında İzle",
+        title : "Homepage | " + urlPageTitle,
         description: "Homepage"
 
     },
     "/about": {
-        template : "/templates/technology.html",
-        title : "Teknoloji Haberleri | " + urlPageTitle,
+        template : "/templates/about.html",
+        title : "About Us Page | " + urlPageTitle,
         description: "About-page"
         
         
         
     },
     "/contact": {
-        template : "/templates/cars.html",
-        title : "Otomobil Haberleri | " + urlPageTitle,
+        template : "/templates/contact.html",
+        title : "Content Page | " + urlPageTitle,
         description: "Contact-page"
     }
 

@@ -1,0 +1,45 @@
+.outerContainer{
+    border-bottom: 2px solid lightslategray;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 15px 15px;
+    margin: 0 auto;
+}
+.cardBody{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.cardBody nav{
+    display: flex;
+    gap: 25px;
+}
+
+
+.cardBody nav a{
+    display:flex;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.cardBody a:hover{
+
+    color: red;
+}
+
+.pageContainer{
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px 15px;
+
+}
